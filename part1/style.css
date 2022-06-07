@@ -1,0 +1,33 @@
+.main{
+    height: 100vh;
+    font-family: 'Neucha', cursive;
+    font-size: 14px; 
+    background-color: #F5F6FA;   
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px #DADADA;
+    border-radius: 10px;
+    width:50%;
+    justify-content:center;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.avatar img{
+    width:60px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.trash img{
+    width: 15px;
+    padding: 5px;
+}
+
+h6{
+    margin: 0;
+    padding:0;
+}
