@@ -56,7 +56,7 @@ function search(){
   })
 }
 
+envoieMessage();
 search();
 compteur();
 deleteMessage();
-envoieMessage();
