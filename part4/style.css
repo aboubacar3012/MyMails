@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+}
+.main {
+  height: 100vh;
+  font-family: "Neucha", cursive;
+  font-size: 14px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px #dadada;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.card:hover {
+  background-color: lightslategrey;
+}
+
+.avatar img {
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.trash img {
+  width: 15px;
+  padding: 5px;
+}
+.trash {
+  margin-left: auto;
+}
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+#search {
+  width: 44%;
+  margin-bottom: 5px;
+}
+#nomComplet {
+  width: 15%;
+}
+
+#message {
+  width: 30%;
+}
+
+button {
+  border: none;
+  min-height: 44px;
+  
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#reset img{
+  width: 3em;
+
+}
+
+button[type="submit"] {
+  border-radius: 0px 4px 4px 0;
+  background-color: rgb(84, 105, 212);
+}
+
+#header {
+  text-align: center;
+}

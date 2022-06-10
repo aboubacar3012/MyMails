@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MyMails</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <div id="header">
+        <h2>Message total: <span id="totalMessage">0</span></h2>
+        <div class="search">
+          <button id="reset" type="button"><img src="./reload.gif" /></button><br>
+          <input type="text" name="search" placeholder="Rechercher"  id="search" />
+          <button id="search-button" type="submit">Rechercher</button>
+        </div>
+        <div>
+          <input type="text" name="prenom" placeholder="nom complet"  id="nomComplet" />
+          <input type="text" name="message" placeholder="message" id="message" />
+          <button
+            id="button"
+            type="submit"
+          >
+            Envoyer
+          </button>
+        </div>
+      </div>
+      <div id="message_list">
+        <!-- One -->
+        <div class="card">
+          <div class="avatar">
+            <img src="./assets/avatar-1.jpg" alt="avatar" />
+          </div>
+          <div class="message-info">
+            <h6>Noel paganelli</h6>
+            <p>hello world</p>
+          </div>
+          <div class="trash">
+            <img class="trash-img" src="./assets/trash.png" alt="trash" />
+          </div>
+        </div>
+        <!-- Two -->
+        <div class="card">
+          <div class="avatar">
+            <img src="./assets/avatar-2.jpg" alt="avatar" />
+          </div>
+          <div class="message-info">
+            <h6>Elise Watson</h6>
+            <p>
+              Lorem ipsum dolor sit amet con sectetur adipisicing elit. Non
+              molestias sunt quasi sapiente minima esse itaque laudantium neque
+              eaque expedita unde.
+            </p>
+          </div>
+          <div class="trash">
+            <img src="./assets/trash.png" alt="trash" />
+          </div>
+        </div>
+        <!-- Three -->
+        <div class="card">
+          <div class="avatar">
+            <img src="./assets/avatar-3.jpg" alt="avatar" />
+          </div>
+          <div class="message-info">
+            <h6>Adam Keval</h6>
+            <p>
+              Lorem ipsum dolor sit amet con sectetur adipisicing elit. Non
+              molestias sunt quasi sapiente minima esse itaque laudantium neque
+              eaque expedita unde.
+            </p>
+          </div>
+          <div class="trash">
+            <img src="./assets/trash.png" alt="trash" />
+          </div>
+        </div>
+        <!-- Four -->
+        <div class="card">
+          <div class="avatar">
+            <img src="./assets/avatar-4.jpg" alt="avatar" />
+          </div>
+          <div class="message-info">
+            <h6>Alexandra Pozi</h6>
+            <p>
+              Lorem ipsum dolor sit amet con sectetur adipisicing elit. Non
+              molestias sunt quasi sapiente minima esse itaque laudantium neque
+              eaque expedita unde.
+            </p>
+          </div>
+          <div class="trash">
+            <img src="./assets/trash.png" alt="trash" />
+          </div>
+        </div>
+        <!-- Five -->
+        <div class="card">
+          <div class="avatar">
+            <img src="./assets/avatar-5.jpg" alt="avatar" />
+          </div>
+          <div class="message-info">
+            <h6>Zoe Milot</h6>
+            <p>
+              Lorem ipsum dolor sit amet con sectetur adipisicing elit. Non
+              molestias sunt quasi sapiente minima esse itaque laudantium neque
+              eaque expedita unde.
+            </p>
+          </div>
+          <div class="trash">
+            <img src="./assets/trash.png" alt="trash" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
