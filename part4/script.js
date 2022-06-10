@@ -25,7 +25,7 @@ function envoieMessage() {
     if($("#message").val() === "" || $("#nomComplet").val() === "") return;
     $("#message_list").before(`<div class='card'>
       <div class='avatar'><img src='./assets/avatar-1.jpg' alt='avatar' /></div>
-      <div class='message-info'><h6${$("#nomComplet").val()}></h6$><p>${$("#message").val()}</p></div>
+      <div class='message-info'><h6>${$("#nomComplet").val()}</h6><p>${$("#message").val()}</p></div>
       <div class='trash'><img class='trash-img' src='./assets/trash.png' alt='trash' /> </div>
     </div>`)
     $("#message").val("");
